@@ -1,0 +1,47 @@
+;precision;recall;f1-score;support
+Making contact with employee;0.69;0.694;0.692;144.0
+Processes;0.74;0.691;0.715;165.0
+Digital possibilities;0.75;0.514;0.61;35.0
+General experience;0.791;0.552;0.65;165.0
+Information provision;0.799;0.722;0.758;313.0
+Employee attitude & behavior;0.9;0.801;0.847;617.0
+Handling;0.845;0.434;0.573;477.0
+No topic found;0.548;0.266;0.358;173.0
+Knowledge & skills of employee;0.67;0.542;0.599;284.0
+Price & quality;0.625;0.333;0.435;15.0
+Physical service provision;0.591;0.662;0.625;142.0
+Waiting time;0.717;0.768;0.741;99.0
+Speaking to the right person;0.526;0.455;0.488;22.0
+Correctness of handling;0.733;0.5;0.595;22.0
+Functionalities web & app;0.7;0.412;0.519;17.0
+Ease of process;0.657;0.651;0.654;106.0
+Reception & Registration;0.611;0.711;0.657;97.0
+Friendliness;0.941;0.848;0.892;454.0
+Quality of information;0.818;0.672;0.738;67.0
+Information provision web & app;0.667;0.5;0.571;12.0
+Clarity of information;0.848;0.792;0.819;197.0
+Solution oriented;0.669;0.436;0.528;181.0
+Availability of employee;0.722;0.419;0.531;31.0
+Price & costs;0.625;0.357;0.455;14.0
+Speed of processing;0.845;0.43;0.57;467.0
+Professionalism;0.692;0.75;0.72;36.0
+Opening hours & accessibility;0.0;0.0;0.0;1.0
+Ease of use web & app;0.833;0.278;0.417;18.0
+Keeping up to date;0.5;0.133;0.211;15.0
+Integrity & fulfilling responsibilities;0.686;0.444;0.539;54.0
+Payout & return;0.0;0.0;0.0;1.0
+No subtopic found;0.548;0.266;0.358;173.0
+Quality of customer service;0.525;0.66;0.585;47.0
+Facilities;0.512;0.449;0.478;49.0
+Objection & evidence;0.0;0.0;0.0;4.0
+General experience subtopic;0.791;0.552;0.65;165.0
+Efficiency of process;0.824;0.636;0.718;66.0
+Genuine interest;0.808;0.728;0.766;81.0
+Expertise;0.657;0.613;0.634;75.0
+Helpfulness;0.726;0.663;0.693;172.0
+Personal approach;0.812;0.565;0.667;23.0
+Communication;0.564;0.585;0.574;53.0
+micro avg;0.768;0.605;0.677;5349.0
+macro avg;0.655;0.512;0.563;5349.0
+weighted avg;0.768;0.605;0.666;5349.0
+samples avg;0.628;0.607;0.6;5349.0

@@ -1,0 +1,47 @@
+;precision;recall;f1-score;support
+Making contact with employee;0.733;0.875;0.797;144.0
+Processes;0.832;0.782;0.806;165.0
+Digital possibilities;0.818;0.514;0.632;35.0
+General experience;0.77;0.709;0.738;165.0
+Information provision;0.794;0.827;0.811;313.0
+Employee attitude & behavior;0.93;0.898;0.913;617.0
+Handling;0.815;0.805;0.81;477.0
+No topic found;0.7;0.486;0.573;173.0
+Knowledge & skills of employee;0.784;0.754;0.768;284.0
+Price & quality;0.385;0.333;0.357;15.0
+Physical service provision;0.737;0.789;0.762;142.0
+Waiting time;0.806;0.879;0.841;99.0
+Speaking to the right person;0.677;0.955;0.792;22.0
+Correctness of handling;0.611;0.5;0.55;22.0
+Functionalities web & app;0.643;0.529;0.581;17.0
+Ease of process;0.755;0.726;0.74;106.0
+Reception & Registration;0.738;0.784;0.76;97.0
+Friendliness;0.949;0.949;0.949;454.0
+Quality of information;0.738;0.716;0.727;67.0
+Information provision web & app;0.833;0.417;0.556;12.0
+Clarity of information;0.821;0.883;0.851;197.0
+Solution oriented;0.746;0.762;0.754;181.0
+Availability of employee;0.511;0.742;0.605;31.0
+Price & costs;0.385;0.357;0.37;14.0
+Speed of processing;0.813;0.812;0.812;467.0
+Professionalism;0.875;0.778;0.824;36.0
+Opening hours & accessibility;0.143;1.0;0.25;1.0
+Ease of use web & app;0.714;0.278;0.4;18.0
+Keeping up to date;0.6;0.4;0.48;15.0
+Integrity & fulfilling responsibilities;0.696;0.593;0.64;54.0
+Payout & return;0.0;0.0;0.0;1.0
+No subtopic found;0.7;0.486;0.573;173.0
+Quality of customer service;0.821;0.681;0.744;47.0
+Facilities;0.733;0.673;0.702;49.0
+Objection & evidence;0.333;0.25;0.286;4.0
+General experience subtopic;0.77;0.709;0.738;165.0
+Efficiency of process;0.85;0.773;0.81;66.0
+Genuine interest;0.827;0.827;0.827;81.0
+Expertise;0.671;0.627;0.648;75.0
+Helpfulness;0.834;0.733;0.78;172.0
+Personal approach;0.727;0.348;0.471;23.0
+Communication;0.56;0.792;0.656;53.0
+micro avg;0.804;0.779;0.791;5349.0
+macro avg;0.695;0.66;0.659;5349.0
+weighted avg;0.804;0.779;0.788;5349.0
+samples avg;0.8;0.789;0.781;5349.0

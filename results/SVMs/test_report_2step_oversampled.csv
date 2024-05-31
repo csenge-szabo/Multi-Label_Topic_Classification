@@ -1,0 +1,47 @@
+;precision;recall;f1-score;support
+Making contact with employee;0.768;0.597;0.672;144.0
+Processes;0.795;0.612;0.692;165.0
+Digital possibilities;0.789;0.429;0.556;35.0
+General experience;0.81;0.57;0.669;165.0
+Information provision;0.869;0.677;0.761;313.0
+Employee attitude & behavior;0.898;0.812;0.853;617.0
+Handling;0.802;0.69;0.742;477.0
+No topic found;0.815;0.306;0.445;173.0
+Knowledge & skills of employee;0.722;0.539;0.617;284.0
+Price & quality;0.714;0.333;0.455;15.0
+Physical service provision;0.675;0.542;0.602;142.0
+Waiting time;0.756;0.657;0.703;99.0
+Speaking to the right person;0.714;0.455;0.556;22.0
+Correctness of handling;0.778;0.318;0.452;22.0
+Functionalities web & app;0.875;0.412;0.56;17.0
+Ease of process;0.706;0.566;0.628;106.0
+Reception & Registration;0.728;0.608;0.663;97.0
+Friendliness;0.905;0.901;0.903;454.0
+Quality of information;0.891;0.612;0.726;67.0
+Information provision web & app;0.667;0.5;0.571;12.0
+Clarity of information;0.895;0.782;0.835;197.0
+Solution oriented;0.68;0.47;0.556;181.0
+Availability of employee;0.8;0.387;0.522;31.0
+Price & costs;0.714;0.357;0.476;14.0
+Speed of processing;0.8;0.7;0.747;467.0
+Professionalism;0.703;0.722;0.712;36.0
+Opening hours & accessibility;0.0;0.0;0.0;1.0
+Ease of use web & app;0.6;0.167;0.261;18.0
+Keeping up to date;0.6;0.2;0.3;15.0
+Integrity & fulfilling responsibilities;0.792;0.352;0.487;54.0
+Payout & return;0.0;0.0;0.0;1.0
+No subtopic found;0.815;0.306;0.445;173.0
+Quality of customer service;0.758;0.532;0.625;47.0
+Facilities;0.562;0.367;0.444;49.0
+Objection & evidence;0.0;0.0;0.0;4.0
+General experience subtopic;0.81;0.57;0.669;165.0
+Efficiency of process;0.867;0.591;0.703;66.0
+Genuine interest;0.824;0.691;0.752;81.0
+Expertise;0.741;0.573;0.647;75.0
+Helpfulness;0.754;0.587;0.66;172.0
+Personal approach;0.812;0.565;0.667;23.0
+Communication;0.7;0.528;0.602;53.0
+micro avg;0.812;0.635;0.712;5349.0
+macro avg;0.712;0.49;0.57;5349.0
+weighted avg;0.806;0.635;0.702;5349.0
+samples avg;0.668;0.647;0.641;5349.0

@@ -1,0 +1,47 @@
+;precision;recall;f1-score;support
+Making contact with employee;0.777;0.604;0.68;144.0
+Processes;0.769;0.624;0.689;165.0
+Digital possibilities;0.778;0.4;0.528;35.0
+General experience;0.826;0.576;0.679;165.0
+Information provision;0.853;0.687;0.761;313.0
+Employee attitude & behavior;0.906;0.809;0.854;617.0
+Handling;0.787;0.704;0.743;477.0
+No topic found;0.785;0.295;0.429;173.0
+Knowledge & skills of employee;0.725;0.539;0.618;284.0
+Price & quality;0.714;0.333;0.455;15.0
+Physical service provision;0.67;0.528;0.591;142.0
+Waiting time;0.8;0.646;0.715;99.0
+Speaking to the right person;0.615;0.364;0.457;22.0
+Correctness of handling;0.714;0.227;0.345;22.0
+Functionalities web & app;1.0;0.412;0.583;17.0
+Ease of process;0.728;0.557;0.631;106.0
+Reception & Registration;0.795;0.598;0.682;97.0
+Friendliness;0.937;0.883;0.909;454.0
+Quality of information;0.912;0.463;0.614;67.0
+Information provision web & app;0.667;0.333;0.444;12.0
+Clarity of information;0.932;0.766;0.841;197.0
+Solution oriented;0.672;0.442;0.533;181.0
+Availability of employee;0.933;0.452;0.609;31.0
+Price & costs;0.714;0.357;0.476;14.0
+Speed of processing;0.807;0.715;0.758;467.0
+Professionalism;0.733;0.611;0.667;36.0
+Opening hours & accessibility;0.0;0.0;0.0;1.0
+Ease of use web & app;0.8;0.222;0.348;18.0
+Keeping up to date;0.5;0.067;0.118;15.0
+Integrity & fulfilling responsibilities;0.8;0.296;0.432;54.0
+Payout & return;0.0;0.0;0.0;1.0
+No subtopic found;0.785;0.295;0.429;173.0
+Quality of customer service;0.71;0.468;0.564;47.0
+Facilities;0.517;0.306;0.385;49.0
+Objection & evidence;0.0;0.0;0.0;4.0
+General experience subtopic;0.826;0.576;0.679;165.0
+Efficiency of process;0.953;0.621;0.752;66.0
+Genuine interest;0.885;0.667;0.761;81.0
+Expertise;0.826;0.507;0.628;75.0
+Helpfulness;0.841;0.552;0.667;172.0
+Personal approach;0.786;0.478;0.595;23.0
+Communication;0.697;0.434;0.535;53.0
+micro avg;0.824;0.625;0.711;5349.0
+macro avg;0.726;0.462;0.552;5349.0
+weighted avg;0.816;0.625;0.699;5349.0
+samples avg;0.69;0.64;0.645;5349.0
