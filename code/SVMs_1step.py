@@ -139,11 +139,11 @@ def plot_confusion_matrices(y_true, y_pred, classes):
         plt.show()
 
 def main():
-    train_file = 'data/train_2.csv'
-    valid_file = 'data/validation_2.csv'
-    test_file = 'data/test_2.csv'
-    output_file = 'model_predictions/svms_predictions_1step.csv'
-    param_file = 'hyperparameters/best_params_1step.pkl'
+    train_file = '../data/train_2.csv'
+    valid_file = '../data/validation_2.csv'
+    test_file = '../data/test_2.csv'
+    output_file = '../model_predictions/svms_predictions_1step.csv'
+    param_file = '../hyperparameters/best_params_1step.pkl'
 
     # Load datasets
     _, train_texts, y_train, label_classes = load_data(train_file)
@@ -169,7 +169,7 @@ def main():
     # Save evaluation results
     report_df = pd.DataFrame(report_dict).transpose()
     report_df = report_df.round(3)
-    report_df.to_csv('results/SVMs/test_report_1step.csv', sep=';', index=True)
+    report_df.to_csv('../results/SVMs/test_report_1step.csv', sep=';', index=True)
     print("Classification report saved to file.")
 
 if __name__ == "__main__":

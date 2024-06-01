@@ -127,13 +127,13 @@ def preprocess_synthetic_data(input_file, output_file, lowercase=True, remove_st
 
 def main():
     print("Undersample Data")
-    input_file_undersample = input("Enter the path to the input CSV file for undersampling: ") # 'data/train.tsv'
-    output_file_undersample = input("Enter the path to the output CSV file for undersampling: ") # 'data/undersampled_train.tsv'
+    input_file_undersample = input("Enter the path to the input CSV file for undersampling: ") # '../data/train.tsv'
+    output_file_undersample = input("Enter the path to the output CSV file for undersampling: ") # '../data/undersampled_train.tsv'
     undersample_data(input_file_undersample, output_file_undersample)
 
     print("\nPreprocess Synthetic Data")
-    input_file_preprocess = input("Enter the path to the input CSV file for preprocessing: ") # 'data/undersampled_train.tsv'
-    output_file_preprocess = input("Enter the path to the output CSV file for preprocessing: ") # 'data/undersampled_train_2.tsv'
+    input_file_preprocess = input("Enter the path to the input CSV file for preprocessing: ") # '../data/undersampled_train.tsv'
+    output_file_preprocess = input("Enter the path to the output CSV file for preprocessing: ") # '../data/undersampled_train_2.tsv'
     preprocess_synthetic_data(input_file_preprocess, output_file_preprocess)
 
 if __name__ == "__main__":

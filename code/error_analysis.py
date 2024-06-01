@@ -79,8 +79,8 @@ def lookup_instance(instance_id, gold_data, pred_data, subtopics):
 
 def main():
     # Load data
-    gold_data = pd.read_csv('data/test.csv', sep=';')
-    pred_data = pd.read_csv('model_predictions/bert_predictions_test_2step_oversampled.csv', sep=';') # or you can use 'model_predictions/bert_predictions_test_2step.csv'/'model_predictions/bert_predictions_test_2step_undersampled.csv'
+    gold_data = pd.read_csv('../data/test.csv', sep=';')
+    pred_data = pd.read_csv('../model_predictions/bert_predictions_test_2step_oversampled.csv', sep=';') # or you can use '../model_predictions/bert_predictions_test_2step.csv' / '../model_predictions/bert_predictions_test_2step_undersampled.csv'
     gold_data.sort_values('id', inplace=True)
     pred_data.sort_values('id', inplace=True)
     assert all(gold_data['id'] == pred_data['id']), "IDs do not match between gold data and predictions."

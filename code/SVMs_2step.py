@@ -157,14 +157,14 @@ def main():
     'Physical service provision': ['Reception & Registration',  'Opening hours & accessibility', 'Facilities']
     }
     
-    train_file = 'data/train_2.csv'
-    valid_file = 'data/validation_2.csv'
-    test_file = 'data/test_2.csv'
-    undersampled_train_file = 'data/undersampled_train_2.csv'
-    oversampled_train_file = 'data/oversampled_train_2.csv'
-    param_file = 'hyperparameters/best_params_2step.pkl'
-    main_topic_predictions_file = 'model_predictions/svms_first_step.csv'
-    two_step_final_predictions_file = 'model_predictions/svms_predictions_2step.csv' # or 'model_predictions/svms_predictions_2step_oversampled.csv' / 'model_predictions/svms_predictions_2step_undersampled.csv'
+    train_file = '../data/train_2.csv'
+    valid_file = '../data/validation_2.csv'
+    test_file = '../data/test_2.csv'
+    undersampled_train_file = '../data/undersampled_train_2.csv'
+    oversampled_train_file = '../data/oversampled_train_2.csv'
+    param_file = '../hyperparameters/best_params_2step.pkl'
+    main_topic_predictions_file = '../model_predictions/svms_first_step.csv'
+    two_step_final_predictions_file = '../model_predictions/svms_predictions_2step.csv' # or '../model_predictions/svms_predictions_2step_oversampled.csv' / '../model_predictions/svms_predictions_2step_undersampled.csv'
     
     # Load data
     train_ids, train_texts, y_train_main, y_train_sub, main_label_classes, sub_label_classes = load_and_split_data(train_file)
@@ -208,7 +208,7 @@ def main():
     # Save evaluation results
     report_df = pd.DataFrame(report_dict).transpose()
     report_df = report_df.round(3)
-    report_df.to_csv('results/SVMs/test_report_2step.csv', sep=';', index=True) # or replace with 'results/SVMs/test_report_2step_undersampled.csv' or 'results/SVMs/test_report_2step_oversampled.csv'
+    report_df.to_csv('../results/SVMs/test_report_2step.csv', sep=';', index=True) # or replace with '../results/SVMs/test_report_2step_undersampled.csv' or '../results/SVMs/test_report_2step_oversampled.csv'
     print("Classification report saved to file.")
 
 if __name__ == "__main__":
