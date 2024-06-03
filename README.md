@@ -73,7 +73,7 @@ Multi-label Topic Classification Task:
     * This script uses the functions stored in `utils.py`
 
 For error analysis: 
-* `data_adaptation.py` allows you to inspect often confused topic labels, and can be used to look up a specific test instance (based on instance ID) to check its gold and predicted labels.
+* `error_analysis.py` allows you to inspect often confused topic labels, and can be used to look up a specific test instance (based on instance ID) to check its gold and predicted labels.
 
 ### \data
 The [data folder](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/data) only contains the `example_dataset.CSV` since the data is not allowed to be shared. However, the CSV file shows the structure of the data.
