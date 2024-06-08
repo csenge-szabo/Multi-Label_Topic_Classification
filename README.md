@@ -116,8 +116,8 @@ This folder contains the results, i.e., the classification reports. The reports 
 This txt file lists all the required packages. 
 ***
 
-## Thesis Report (to be added soon)
-### `Csenge_Szabo_MA_Thesis.pdf`
+## Thesis Report
+### `MA_Thesis_Csenge_Szabo.pdf`
 The pdf file contains the full thesis report.
 ***
 
