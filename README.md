@@ -6,7 +6,7 @@
 This repository belongs to the Master's Thesis Project "*Multi-label Topic Classification of Client Feedback in the Governance Domain*" by Csenge Szabó, supervised by Dr. Ilia Markov and Sandra Blok. 
 The project was carried out in collaboration with the company [MarketResponse](https://marketresponsegroup.com/), a Dutch software company specializing in CX analytics in order to bridge the gap between customer feedback and business performance.
 
-The thesis project focuses on the Multi-label Topic Classification of written client feedback collected from the governance domain through surveys. Multi-label Topic Classification is the task of assigning more than one topic label for a particular text instance using a set of predefined topics. For this, we explore and compare a conventional machine learning classifier (Support Vector Machines) with a more recent transformer-based one (fine-tuned BERT) that currently provides state-of-the-art performance for the majority of Natural Language Processing tasks. Since the topic labels in the dataset can be divided into main topics and subtopics, we experiment with one-step and two-step classification approaches. In order to account for the imbalanced nature of the dataset, various data augmentation and data balancing techniques are being tested. The data manipulation focuses on undersampling and oversampling. The undersampling approach aims to reduce the representation of overrepresented subtopic classes to the average distribution, while oversampling has the goal of generating synthetic data for the underrepresented subtopic classes using a multimodal large language model, ChatGPT-4. We aim to determine the best approach for Multi-label Topic Classification on the provided dataset using a combination of the aforementioned approaches.
+The thesis focuses on the multi-label topic classification of written client feedback collected from the governance domain through surveys. Multi-label topic classification involves assigning more than one topic label to a particular text instance from a predefined set of topics. For this purpose, we compare a traditional machine learning classifier (Support Vector Machines) with a more recent transformer-based model (fine-tuned BERT) that currently shows state-of-the-art performance for the majority of Natural Language Processing tasks. Since the topic labels in the dataset are structured into main topics and corresponding subtopics, we experiment with one-step and two-step classification approaches. The former implies the classification of instances for all topic labels at once, while the latter means first predicting main topic labels and then subtopic labels. In order to address the imbalanced nature of the dataset, various data adaptation and data balancing techniques are explored, namely (i) undersampling aimed to reduce the prevalence of overrepresented subtopic classes to the average distribution, and (ii) oversampling aimed to generate synthetic data for underrepresented subtopic classes using a generative large language model, GPT-4. We aim to determine the best approach for multi-label topic classification on the provided dataset using a combination of the aforementioned approaches.
 
 The motivation, methodology, results and discussion of the results can be found in the [thesis report](https://github.com/csenge-szabo/Multi-label_Topic_Classification_Thesis/blob/main/MA_Thesis_Csenge_Szabo.pdf). 
 
@@ -50,7 +50,7 @@ Thesis Project Structure
 ```
 
 ### \code
-The folder [code](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/code) contains the scripts and  notebooks needed to reproduce this study.
+The [code](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/code) folder contains the scripts and  notebooks needed to reproduce this study.
 To reproduce the study, follow the order of the files listed below:
 
 For pre-processing: 
@@ -76,10 +76,10 @@ For error analysis:
 * `error_analysis.py` allows you to inspect often confused topic labels, and can be used to look up a specific test instance (based on instance ID) to check its gold and predicted labels.
 
 ### \data
-The data folder only contains the `example_dataset.csv` since the data is not allowed to be shared. However, the CSV file shows the structure of the data.
+The [data](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/data) folder only contains the `example_dataset.csv` since the data is not allowed to be shared. However, the CSV file shows the structure of the data.
 
 ### \figures
-The folder is used to store the figures, for instance, the confusion matrices of each classification approach. It is separated into the different approaches and each contains the corresponding confusion matrices:
+The [figures](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/figures) folder is used to store the figures, for instance, the confusion matrices of each classification approach. It is separated into the different approaches and each contains the corresponding confusion matrices:
 
 * \BERT_1step
 * \BERT_2step
@@ -91,16 +91,16 @@ The folder is used to store the figures, for instance, the confusion matrices of
 * \SVMs_2step_undersampled
 
 ### \hyperparameters
-The folder is used to store pickle files, which contain information about the optimal hyper-parameter settings for the one-step and two-step SVMs model. 
+The [hyperparameters](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/hyperparameters) folder is used to store pickle files, which contain information about the optimal hyper-parameter settings for the one-step and two-step SVMs model. 
 
 ### \model_predictions
-This folder contains the model outputs, i.e. CSV files with the feedback statements from the test data, and their predicted labels. Due to the confidentiality restrictions, the files were not uploaded.
+The [model_predictions](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/model_predictions) folder contains the model outputs, i.e. CSV files with the feedback statements from the test data, and their predicted labels. Due to the confidentiality restrictions, the files were not uploaded.
 
 ### \models
-In this folder, the trained BERT models are being stored. Due to the confidentiality restrictions and the size of the models, the models were not uploaded.
+The [models](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/models) folder is a location for the trained models. Due to the confidentiality restrictions and the size of the models, the models were not uploaded.
 
 ### \results
-This folder contains the results, i.e., the classification reports. The reports can be found in `\BERT` and `\SVMs`.
+The [results](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/results) folder contains the results, i.e., the classification reports. The reports can be found in `\BERT` and `\SVMs`.
 * \BERT
     * `test_report_1step.csv`
     * `test_report_2step.csv`
