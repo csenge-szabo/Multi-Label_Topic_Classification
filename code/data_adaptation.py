@@ -118,7 +118,7 @@ def preprocess_synthetic_data(input_file, output_file, lowercase=True, remove_st
 
         return ' '.join(tokens)
 
-    # Filter the dataframe to process only rows with IDs starting with '1', synthetic data instances
+    # Filter the dataframe to process only rows with IDs starting with '1', these are synthetic data instances
     df_filtered = df[df['id'].astype(str).str.startswith('1')]
     df.loc[df_filtered.index, 'text'] = df_filtered['text'].apply(preprocess_document)
 

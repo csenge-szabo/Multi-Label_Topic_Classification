@@ -22,8 +22,7 @@ class MultiLabelDataset(Dataset):
         tokenizer (:obj:`transformers.PreTrainedTokenizer`):
             The tokenizer used to convert text into tokens and token IDs.
         max_len (:obj:`int`):
-            The maximum length of the tokenized output. Texts will be truncated
-            or padded to this length.
+            The maximum length of the tokenized output. Texts will be truncated or padded to this length.
 
     Attributes:
         text (:obj:`pandas.Series`):
