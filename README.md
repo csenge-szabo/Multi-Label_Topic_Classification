@@ -50,7 +50,7 @@ Thesis Project Structure
 ```
 
 ### \code
-The [code](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/code) folder contains the scripts and  notebooks needed to reproduce this study.
+The [code](https://github.com/csenge-szabo/Multi-label_Topic_Classification_Thesis/tree/main/code) folder contains the scripts and  notebooks needed to reproduce this study.
 To reproduce the study, follow the order of the files listed below:
 
 For pre-processing: 
@@ -76,10 +76,10 @@ For error analysis:
 * `error_analysis.py` allows you to inspect often confused topic labels, and can be used to look up a specific test instance (based on instance ID) to check its gold and predicted labels.
 
 ### \data
-The [data](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/data) folder only contains the `example_dataset.csv` since the data is not allowed to be shared due to the confidentiality agreement. However, the CSV file represents the structure of the data.
+The [data](https://github.com/csenge-szabo/Multi-label_Topic_Classification_Thesis/tree/main/data) folder only contains the `example_dataset.csv` since the data is not allowed to be shared due to the confidentiality agreement. However, the CSV file represents the structure of the data.
 
 ### \figures
-The [figures](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/figures) folder is used to store the figures, for instance, the confusion matrices of each classification approach. It is separated into the different approaches and each contains the corresponding confusion matrices:
+The [figures](https://github.com/csenge-szabo/Multi-label_Topic_Classification_Thesis/tree/main/figures) folder is used to store the figures, for instance, the confusion matrices of each classification approach. It is separated into the different approaches and each contains the corresponding confusion matrices:
 
 * \BERT_1step
 * \BERT_2step
@@ -91,16 +91,16 @@ The [figures](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Cl
 * \SVMs_2step_undersampled
 
 ### \hyperparameters
-The [hyperparameters](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/hyperparameters) folder is used to store pickle files, which contain information about the optimal hyper-parameter settings for the one-step and two-step SVMs model. 
+The [hyperparameters](https://github.com/csenge-szabo/Multi-label_Topic_Classification_Thesis/tree/main/hyperparameters) folder is used to store pickle files, which contain information about the optimal hyper-parameter settings for the one-step and two-step SVMs model. 
 
 ### \model_predictions
-The [model_predictions](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/model_predictions) folder contains the model outputs, i.e. CSV files with the feedback statements from the test data, and their predicted labels. Due to the confidentiality restrictions, the files were not uploaded.
+The [model_predictions](https://github.com/csenge-szabo/Multi-label_Topic_Classification_Thesis/tree/main/model_predictions) folder contains the model outputs, i.e. CSV files with the feedback statements from the test data, and their predicted labels. Due to the confidentiality restrictions, the files were not uploaded.
 
 ### \models
-The [models](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/models) folder is a location for the trained models. Due to the confidentiality restrictions and the size of the models, the models were not uploaded.
+The [models](https://github.com/csenge-szabo/Multi-label_Topic_Classification_Thesis/tree/main/models) folder is a location for the trained models. Due to the confidentiality restrictions and the size of the models, the models were not uploaded.
 
 ### \results
-The [results](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/results) folder contains the results, i.e., the classification reports. The reports can be found in `\BERT` and `\SVMs`.
+The [results](https://github.com/csenge-szabo/Multi-label_Topic_Classification_Thesis/tree/main/results) folder contains the results, i.e., the classification reports. The reports can be found in `\BERT` and `\SVMs`.
 * \BERT
     * `test_report_1step.csv`
     * `test_report_2step.csv`
