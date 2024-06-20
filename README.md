@@ -76,7 +76,7 @@ For error analysis:
 * `error_analysis.py` allows you to inspect often confused topic labels, and can be used to look up a specific test instance (based on instance ID) to check its gold and predicted labels.
 
 ### \data
-The [data](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/data) folder only contains the `example_dataset.csv` since the data is not allowed to be shared. However, the CSV file shows the structure of the data.
+The [data](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/data) folder only contains the `example_dataset.csv` since the data is not allowed to be shared due to the confidentiality agreement. However, the CSV file represents the structure of the data.
 
 ### \figures
 The [figures](https://github.com/cltl-students/Csenge_Szabo_Multi-label_Topic_Classification/tree/main/figures) folder is used to store the figures, for instance, the confusion matrices of each classification approach. It is separated into the different approaches and each contains the corresponding confusion matrices:
