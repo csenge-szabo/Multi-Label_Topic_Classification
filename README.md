@@ -27,7 +27,7 @@ Thesis Project Structure
         |   utils.py
         |   error_analysis.py
 └───data
-│       │   example_dataset.CSV 
+│       │   example_dataset.csv
 └───figures
 │   └───SVMs_1step
 │   └───SVMs_2step
