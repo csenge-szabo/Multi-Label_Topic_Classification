@@ -168,7 +168,7 @@ def main():
     nlp = spacy.load('en_core_web_sm')
 
     input_file = input('Enter the path to the input file: ') # '../data/converted_data.tsv'
-    output_file = input('Enter the path to the output file: ') # '../data/full_dataset_2.csv'
+    output_file = input('Enter the path to the output file: ') # '../data/full_dataset.csv'
 
     maintopics = ['Making contact with employee', 'Processes', 'Digital possibilities', 'General experience', 'Information provision', 'Employee attitude & behavior', 'Handling', 'No topic found', 'Knowledge & skills of employee', 'Price & quality', 'Physical service provision']
     subtopics = ['Waiting time', 'Speaking to the right person', 'Correctness of handling', 'Functionalities web & app', 'Ease of process', 'Reception & Registration', 'Friendliness', 'Quality of information', 'Information provision web & app', 'Clarity of information', 'Solution oriented', 'Availability of employee', 'Price & costs', 'Speed of processing', 'Professionalism', 'Opening hours & accessibility', 'Ease of use web & app', 'Keeping up to date', 'Integrity & fulfilling responsibilities', 'Payout & return', 'No subtopic found', 'Quality of customer service', 'Facilities', 'Objection & evidence', 'General experience subtopic', 'Efficiency of process', 'Genuine interest', 'Expertise', 'Helpfulness', 'Personal approach', 'Communication']
