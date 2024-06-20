@@ -50,7 +50,7 @@ Thesis Project Structure
 ```
 
 ### \code
-The [code](https://github.com/csenge-szabo/Multi-label_Topic_Classification_Thesis/tree/main/code) folder contains the scripts and  notebooks needed to reproduce this study.
+The [code](https://github.com/csenge-szabo/Multi-label_Topic_Classification_Thesis/tree/main/code) folder contains the scripts and  notebooks required to reproduce this study.
 To reproduce the study, follow the order of the files listed below:
 
 For pre-processing: 
