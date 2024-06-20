@@ -51,7 +51,7 @@ Thesis Project Structure
 
 ### \code
 The [code](https://github.com/csenge-szabo/Multi-label_Topic_Classification_Thesis/tree/main/code) folder contains the scripts and  notebooks required to reproduce this study.
-To reproduce the study, follow the order of the files listed below:
+In order to reproduce the experiments, follow the order of the files listed below:
 
 For pre-processing: 
 * `preprocessing.py` cleans the dataset from privacy-sensitive information (names, dates, times, locations, URLs, e-mail addresses). It pre-processes the dataset by applying lowercasing and stop words removal. It implements Binary Relevance problem transformation in order to convert the labels into 0 and 1. It conducts stratified data splitting in a ratio of 80-10-10 (train-validation-test).
