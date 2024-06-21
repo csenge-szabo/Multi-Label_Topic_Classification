@@ -18,7 +18,7 @@ The motivation, methodology, results and discussion of the results can be found 
 ```
 Thesis Project Structure 
 └───code
-│       |   preprocessing.py
+        |   preprocessing.py
         |   data_adaptation.py
         |   SVMs_1step.py
         |   SVMs_2step.py
