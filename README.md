@@ -113,7 +113,7 @@ The [results](https://github.com/csenge-szabo/Multi-label_Topic_Classification_T
     * `test_report_2step_oversampled.csv`
 
 ### `requirements.txt`
-This txt file lists all the required packages. 
+The required Python 3.7.8 packages for running the code contained in this repository can be found in the `requirements.txt` file and can be installed directly through pip.
 ***
 
 ## Thesis Report
