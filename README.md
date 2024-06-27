@@ -1,7 +1,6 @@
 # Multi-label Topic Classification of Client Feedback in the Governance Domain 
 
-## A Thesis Project by *Csenge Szabó* 
-## Master's Degree in 'Linguistics: Text Mining', Vrije Universiteit Amsterdam 2023/2024
+## Overview
 
 This repository belongs to the Master's Thesis Project "*Multi-label Topic Classification of Client Feedback in the Governance Domain*" by Csenge Szabó, supervised by Dr. Ilia Markov and Sandra Blok. 
 The project was carried out in collaboration with the company [MarketResponse](https://marketresponsegroup.com/), a Dutch software company specializing in Customer Experience analytics in order to bridge the gap between customer feedback and business performance.
