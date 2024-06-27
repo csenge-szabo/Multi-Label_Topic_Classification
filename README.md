@@ -11,9 +11,7 @@ The motivation, methodology, results and discussion of the results can be found 
 
 **Note:** Since the data cannot be shared with third-parties, it is not published in this repository. Outputs that give an indication about its content have been hidden.
 
-## Content
-
-### Folder Structure 
+## Project structure
 ```
 Thesis Project Structure 
 └───code
