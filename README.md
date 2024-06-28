@@ -43,7 +43,6 @@ Thesis Project Structure
 └───results
 │   └───BERT
 │   └───SVMs
-│   .gitignore
 │   LICENSE
 │   README.md
 │   requirements.txt
