@@ -1,5 +1,7 @@
 # Multi-Label Topic Classification of Client Feedback in the Governance Domain 
 
+Master's Degree in "Linguistics: Text Mining", VU Amsterdam, 2023/2024.
+
 ## Overview
 
 This repository belongs to the Master's Thesis Project "*Multi-Label Topic Classification of Client Feedback in the Governance Domain*" by Csenge Szabó, supervised by Dr. Ilia Markov and Sandra Blok. 
