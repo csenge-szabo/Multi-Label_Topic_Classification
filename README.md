@@ -118,6 +118,6 @@ The pdf file contains the full thesis report.
 ***
 
 # References
-The code for the conventional machine learning approach was partially inspired by Piek Vossen, [Source Code](https://github.com/cltl/ma-hlt-labs/tree/master/lab3.machine_learning).
+The code for the conventional machine learning approach was partially inspired by Dr. Piek Vossen, [Source Code](https://github.com/cltl/ma-hlt-labs/tree/master/lab3.machine_learning).
 
 The code to fine-tune the BERT model was adapted from [Abhishek Kumar Mishra](https://github.com/abhimishra91/transformers-tutorials/blob/master/transformers_multi_label_classification.ipynb), who used it for multi-label text classification of toxic data.
