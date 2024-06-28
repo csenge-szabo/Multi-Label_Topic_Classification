@@ -1,6 +1,6 @@
 # Multi-Label Topic Classification of Client Feedback in the Governance Domain 
 
-Master's Degree in "Linguistics: Text Mining", VU Amsterdam, 2023/2024.
+#### Master's Degree in "Linguistics: Text Mining", VU Amsterdam, 2023/2024.
 
 ## Overview
 
